@@ -1,12 +1,13 @@
 {
-  "name": "DTZ NOVA X MD",
+  "name": "dtz-nova-x-md",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DTZ NOVA X MD",
-    "stop": "pm2 stop DTZ NOVA X MD",
-    "restart": "pm2 restart DTZ NOVA X MD"
+    "NOVA": "node index.js",
+    "start": "pm2 start index.js --deep-monitoring --attach --name \"DTZ NOVA X MD\"",
+    "stop": "pm2 stop \"DTZ NOVA X MD\"",
+    "restart": "pm2 restart \"DTZ NOVA X MD\""
   },
  "dependencies": {
   "@whiskeysockets/baileys": "^6.7.21",
